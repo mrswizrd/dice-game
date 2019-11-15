@@ -15,19 +15,17 @@ let score = document.getElementById('score');
 let dice = document.getElementById('dice');
 let btn = document.getElementById('btn');
 let reset = document.getElementById('reset');
-
-// console.log(player);
+//so this implements the Document Object Model so that these variables appear on the screen
+// this connects the HTML variables by their ID to the JS document.
 
 let randomNumber = 0;
 let sco = 0;
 console.log(dice);
-
-let dice1
-let finalScore = (randomNumber.final);
+//this will ensure the random number is zero and the score is displaying zero 
+//these are global variables set for random number and score
 
 btn.addEventListener("click", () => {
     randomNumber = Math.floor(Math.random() * 6) + 1;
-    console.log(randomNumber);
     dice.src = (`./img/dice${randomNumber}.png`)
     sco.textContent = 0
     dice.style.visibility = "visible";
