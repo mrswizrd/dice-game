@@ -14,7 +14,7 @@ let player = document.getElementById('player');
 let score = document.getElementById('score');
 let dice = document.getElementById('dice');
 let btn = document.getElementById('btn');
-let reset = document.getElementById('reset');
+let reset = document.getElementById('reset');;
 //so this implements the Document Object Model so that these variables appear on the screen
 // this connects the HTML variables by their ID to the JS document.
 
